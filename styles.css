@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+    color: #0056b3;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #003d82;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #0056b3;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+a.btn:hover {
+    background: #003d82;
+}
+
+a.logout {
+    background: #d9534f;
+}
+
+a.logout:hover {
+    background: #c9302c;
+}
